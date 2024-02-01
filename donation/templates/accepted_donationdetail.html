@@ -126,6 +126,19 @@
 
 {% if error == "no" %}
 <script>
+  alert ('Volunteer allocated Successfully.');
+  window.location=('{% url 'accepted_donationdetail' donation.id % }');
+</script>
+{% endif %}
+{% if error == "yes" %}
+<script>
+  alert('Something Went Wrong. Please try again');
+</script>
+{% endif %}
+{% endblock %}
+ 
+{% comment %} {% if error == "no" %}
+<script>
     alert('Volunteer allocated successfully.');
     window.location=('{% url 'accepted_donationdetail' donation.id %}');
 </script>
@@ -136,4 +149,4 @@
 </script>
 {% endif %}
 
-{% endblock %}
+{% endblock %} {% endcomment %}

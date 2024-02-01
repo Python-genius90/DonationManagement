@@ -1,0 +1,8 @@
+Admin: admin
+password: admin
+
+volunteer: volunteer@gmail.com
+password: volunteer@123
+
+donor: khanbhai@gmail.com
+password: abdul@123

@@ -604,4 +604,3 @@ def delete_volunteer(request,pid):
     user = User.objects.get(id=pid)
     user.delete()
     return redirect('all_volunteer')
-
