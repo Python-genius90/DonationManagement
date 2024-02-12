@@ -54,7 +54,33 @@ hr.separator{
 
                     </tr>
                     <tr>
-                        <th style="width:200px;color : green">Volunteer Email</th>
+                        <th style="width:200px; color : green"> Volunteer Email</th>
+                        <th>{{i.donation.volunteer.user.username}}</th>
+                        <th style="color:green">Volunteer Contact</th>
+                        <th>{{i.donation.volunteer.contact}}</th>
+                    </tr>
+
+                    <tr>
+                        <th style="color:blue">Donation Area</th>
+                        <th>{{i.donation.donationarea.areaname}}</th>
+                    </tr>
+
+                    <tr>
+                        <th style = "color: blue">Donation Date</th>
+                        <th> {{i.donation.donationarea.areaname}}</th>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+    <hr class = "separator">
+    {% endfor %}
+</div>
+
+</body>
+<html>
+                        {% comment %} <th style="width:200px;color : green">Volunteer Email</th>
                         <th> {{i.donation.volunteer.user.username}} </th>
                     <th style="color:green">Volunteer Contact</th>
                     <th>{{i.donation.volunteer.contact}}</th>
@@ -80,4 +106,4 @@ hr.separator{
 
 
 </body>
-</html>
+</html> {% endcomment %}
