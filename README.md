@@ -66,15 +66,6 @@ through the login page
 | Blue | ![#0000ff](https://via.placeholder.com/10/0000ff?text=+) #0000ff |
 
 
-## Deployment
-
-To deploy this project run
-
-```bash
-  python manage.py runserver
-```
-
-
 ## Authors
 
 - [@Python-genius900](https://www.github.com/octokatherine)
