@@ -104,9 +104,6 @@ Start the server
   python manage.py runserver
 ```
 
-![Uploading WhatsApp Image 2024-05-23 at 16.22.21_11904d2e.jpg…]()
-
-
 
 ## Support
 
